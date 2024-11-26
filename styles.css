@@ -1,3 +1,4 @@
+/* Overall body formatting */
 body {
     margin-left: 10px;
     margin-right: 10px;
@@ -10,11 +11,13 @@ body {
     background: yellow
 }
 
+/* Overall page formatting */
 * {
     background: yellow;
 }
 
-.header {
+/* Base Container Div Class formatting */
+.base-container {
     margin: 0px 200px;
     font-size: 18px;
     text-align: center;
@@ -24,11 +27,13 @@ body {
     font-weight: bold;
 }
 
+/* flex-wrap wrapper formatting */
 .flex-wrap {
     display: flex;
     justify-content: center;
 }
 
+/* flex-wrap container formatting */
 .flex-wrap-container {
     text-align: center;
     border: 1px solid black;
@@ -41,6 +46,7 @@ body {
     background: linear-gradient(orange, red)
 }
 
+/* flex-wrap container title formatting */
 .container-title {
     background: none;
     font-size: 16px;
@@ -48,15 +54,18 @@ body {
     font-weight: bold;
 }
 
+/* flex-wrap container body formatting */
 .container-body {
     background: none;
     font-size: 12px;
 }
 
-ul {
+
+/* remove overarching background formatting */
+ul, li, a {
     background: none;
 }
 
-li {
-    background: none;
+a:hover {
+    color: blue;
 }
